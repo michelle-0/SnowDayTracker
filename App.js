@@ -7,13 +7,16 @@
  */
 
 import React from 'react';
-import {
-  Text,
-} from 'react-native';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import Demo from './views/demo/Demo';
 
 const App = () => {
   return (
-    <Text>Hello Chelle</Text>
+    <SafeAreaProvider>
+      <SafeAreaView>
+        <Demo />
+      </SafeAreaView>
+    </SafeAreaProvider>
   );
 };
 
