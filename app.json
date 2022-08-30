@@ -1,11 +1,4 @@
 {
-  "expo": {
-    "name": "SnowDayTracker",
-    "slug": "SnowDayTracker",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
-  },
-  "name": "SnowDayTracker"
+  "name": "SnowDayTracker",
+  "displayName": "SnowDayTracker"
 }
