@@ -3,36 +3,27 @@ import { View, ActivityIndicator, StyleSheet} from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import Tabs from './src/components/Tabs'
-import Counter from './src/demonstration/Counter'
-
+import { useGetWeather } from './src/hooks/useGetWeather'
+// api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
 
 const Tab = createBottomTabNavigator() // initializes tab object for us to use
 
 const App = () => {
-  const [loading, setLoading] = useState(true)
-  const [location, setLocation] = useState(null)
-  const [error, setError] = useState(null)
-  if (loading) {
+  const [loading, error, weather] = useGetWeather()
+  console.log(loading, error, weather)
+
+  if (weather && weather.list){
     return (
-    <View style={styles.container}>
-    <ActivityIndicator size={'large'} color={'blue'}/>
-    </View>
+      <NavigationContainer>
+        <Tabs weather={weather} />
+      </NavigationContainer>
     )
   }
-
-  useEffect{() => {
-    (async() => {
-      let { status } = await Location.requestForegroundPermissionsAsync
-      if (status !== 'granted') {
-        setError('permission to access location was denied')
-        return 
-      }
-    })
-  }}
+ 
   return (
-    <NavigationContainer>
-      <Tabs />
-    </NavigationContainer>
+    <View style={styles.container}>
+      <ActivityIndicator size={'large'} color={'blue'}/>
+    </View>
   )
 }
 const styles = StyleSheet.create({
