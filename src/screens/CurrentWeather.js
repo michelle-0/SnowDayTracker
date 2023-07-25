@@ -1,6 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
+import { StyleSheet, Text, View, SafeAreaView, ImageBackground } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 import RowText from '../components/RowText';
 import { weatherType } from '../utilities/weatherType';
@@ -13,20 +12,23 @@ const CurrentWeather = ({weatherData}) => {
     highLow, 
     bodyWrapper, 
     description, 
-    message 
+    message,
+    imageLayout
   } = styles
   const { main: { temp, feels_like, temp_max, temp_min } , weather} = weatherData
   const weatherCondition = weather[0].main
   return (
-    <SafeAreaView style={[wrapper, { backgroundColor: weatherType[weatherCondition].backgroundColor}
-    ]}>
+    <SafeAreaView style={wrapper}>
+       <ImageBackground
+            source={require('../../assets/snowfall.jpg')} 
+            style={imageLayout}>
       <View style={container}>
         <Feather name={weatherType[weatherCondition].icon} size={100} color="white" />
         <Text style={feels}>{temp}</Text>
-        <Text style={feels}>{`Feels like ${feels_like}`}</Text>
+        <Text style={feels}>{`Feels like ${feels_like} °`}</Text>
         <RowText 
-        messageOne={`High: ${temp_max}`} 
-        messageTwo={`Low: ${temp_min}`} 
+        messageOne={`High: ${temp_max}° `} 
+        messageTwo={`Low: ${temp_min}°`} 
         containerStyles={highLowWrapper} 
         messageOneStyles={highLow} 
         messageTwoStyles={highLow} 
@@ -39,6 +41,7 @@ const CurrentWeather = ({weatherData}) => {
         messageOneStyles={description} 
         messageTwoStyles={message}
         />
+    </ImageBackground>
     </SafeAreaView>
   )
 }
@@ -47,6 +50,9 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
+    flex: 1
+  },
+  imageLayout: {
     flex: 1
   },
   wrapper: {
@@ -61,7 +67,7 @@ const styles = StyleSheet.create({
     fontSize: 30,
     color: 'black'
   },
-  highLow: {
+  highLow: { 
     color: 'black',
     fontSize: 20
   },
