@@ -7,16 +7,10 @@ import {
   ImageBackground,
 } from "react-native";
 import ListItem from "../components/ListItem";
+import DB from "../components/DB";
 
-const Counter = ({ weatherData }) => {
-  const renderItem = ({ item }) => (
-    <ListItem
-      condition={item.weather[0].main}
-      dt_txt={item.dt_txt}
-      min={item.main.temp_min}
-      max={item.main.temp_max}
-    />
-  );
+const Counter = ({}) => {
+  
   const { container, image } = styles;
   return (
     <SafeAreaView edges={["top"]} style={container}>
@@ -24,11 +18,7 @@ const Counter = ({ weatherData }) => {
         source={require("../../assets/snowfall.jpg")}
         style={image}
       >
-        <FlatList
-          data={weatherData}
-          renderItem={renderItem}
-          keyExtractor={(item) => item.dt_txt}
-        />
+        <DB />
       </ImageBackground>
     </SafeAreaView>
   );

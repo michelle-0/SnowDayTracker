@@ -3,6 +3,8 @@ import { StyleSheet, Text, View, SafeAreaView, ImageBackground } from 'react-nat
 import { Feather } from '@expo/vector-icons';
 import RowText from '../components/RowText';
 import { weatherType } from '../utilities/weatherType';
+import DB from '../components/DB';
+
 const CurrentWeather = ({weatherData}) => {
   const { 
     wrapper, 
@@ -22,6 +24,9 @@ const CurrentWeather = ({weatherData}) => {
        <ImageBackground
             source={require('../../assets/snowfall.jpg')} 
             style={imageLayout}>
+              <View>
+                <DB />
+              </View>
       <View style={container}>
         <Feather name={weatherType[weatherCondition].icon} size={100} color="white" />
         <Text style={feels}>{temp}</Text>
