@@ -73,7 +73,7 @@ const Tabs = ({weather}) => {
           tabBarIcon: ({ focused }) => (
             <FontAwesome5
             name="mountain"
-            size={'25'}
+            size={25}
             color={focused ? 'navy' : 'black'}
             />
           )

@@ -24,9 +24,6 @@ const CurrentWeather = ({weatherData}) => {
        <ImageBackground
             source={require('../../assets/snowfall.jpg')} 
             style={imageLayout}>
-              <View>
-                <DB />
-              </View>
       <View style={container}>
         <Feather name={weatherType[weatherCondition].icon} size={100} color="white" />
         <Text style={feels}>{temp}</Text>
