@@ -5,33 +5,35 @@ const LastCard = () => {
     const [modalVisible, setModalVisible] = useState(false);
     const [mountainName, setMountainName] = useState('');
     const [mountainDays, setMountainDays] = useState('');
+    const userEmail = "mo@gmail.com";
+    // const [userEmail, setUserEmail] = useState('');
 
     const handleAddMountain = async () => {
-        try {
-            const response = await fetch("https://p92mbzda54.execute-api.us-west-2.amazonaws.com/beta/all", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify({
-                    Snowy: mountainName,
-                    Days: mountainDays,
-                }),
+        const requestData = {
+            mountain: mountainName,
+            days: mountainDays,
+            userId: userEmail
+          };
+          
+          fetch("https://b3y4z9h2hb.execute-api.us-west-2.amazonaws.com/snowdays", {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              // Add any other headers you might need
+            },
+            body: JSON.stringify(requestData)
+          })
+            .then(response => response.json())
+            .then(data => {
+              console.log("Response from API:", data);
+              // Do something with the response data
+            })
+            .catch(error => {
+              console.error("Error:", error);
+              // Handle the error
             });
-
-            if (response.ok) {
-                alert("Mountain added successfully");
-                setModalVisible(false);
-            } else {
-                console.error("Error response:", response);
-                alert("Error adding mountain");
-            }
-        } catch (error) {
-            console.error("An error occurred:", error);
-            alert("Error adding mountain");
         }
-    };
-
+    
     return (
         <View>
             <TouchableOpacity onPress={() => setModalVisible(true)}>
@@ -56,7 +58,14 @@ const LastCard = () => {
                         value={mountainDays}
                         onChangeText={text => setMountainDays(text)}
                     />
-                    <Button title="Add Mountain" onPress={handleAddMountain} />
+                    {/* <TextInput
+                        style={styles.input}
+                        keyboardType='email-address'
+                        placeholder="Email"
+                        value={userEmail}
+                        onChangeText={text => setUserEmail(text)}
+                    /> */}
+                    <Button title="Add Mountain" onPress={() => { handleAddMountain(); setModalVisible(false); }} />
                     <Button title="Cancel" onPress={() => setModalVisible(false)} />
                 </View>
             </Modal>
