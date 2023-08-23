@@ -1,12 +1,25 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Modal, TextInput, Button } from 'react-native';
+import DropDownPicker from "react-native-dropdown-picker";
+const resortsData = require("../../resorts.json");
 
 const LastCard = () => {
     const [modalVisible, setModalVisible] = useState(false);
     const [mountainName, setMountainName] = useState('');
     const [mountainDays, setMountainDays] = useState('');
     const userEmail = "mo@gmail.com";
-    // const [userEmail, setUserEmail] = useState('');
+    const [open, setOpen] = useState(false);
+    const [value, setValue] = useState(null);
+
+    const items = resortsData.map((resort) => ({
+      label: resort.name, // Assuming 'name' is the property in resortsData
+      value: resort.name, // Assuming 'id' is the property in resortsData
+    }));
+
+
+    const handleMountainChange = (itemValue) => {
+      setMountainName(itemValue);
+    };
 
     const handleAddMountain = async () => {
         const requestData = {
@@ -35,41 +48,52 @@ const LastCard = () => {
         }
     
     return (
-        <View>
-            <TouchableOpacity onPress={() => setModalVisible(true)}>
-                <View style={styles.card}>
-                    <View style={styles.cardContent}>
-                        <Text style={styles.plus}> + </Text>
-                    </View>
-                </View>
-            </TouchableOpacity>
-            <Modal visible={modalVisible} animationType="slide">
-                <View style={styles.modalContainer}>
-                    <TextInput
-                        style={styles.input}
-                        placeholder="Mountain Name"
-                        value={mountainName}
-                        onChangeText={text => setMountainName(text)}
-                    />
-                    <TextInput
-                        style={styles.input}
-                        placeholder="Days"
-                        keyboardType="numeric"
-                        value={mountainDays}
-                        onChangeText={text => setMountainDays(text)}
-                    />
-                    {/* <TextInput
+      <View>
+        <TouchableOpacity onPress={() => setModalVisible(true)}>
+          <View style={styles.card}>
+            <View style={styles.cardContent}>
+              <Text style={styles.plus}> + </Text>
+            </View>
+          </View>
+        </TouchableOpacity>
+        <Modal visible={modalVisible} animationType="slide">
+          <View style={styles.modalContainer}>
+            <DropDownPicker
+              open={open}
+              value={value}
+              items={items}
+              setOpen={setOpen}
+              setValue={setValue}
+              onChangeValue={handleMountainChange}
+              containerStyle={{ width: "100%" }}
+              dropDownContainerStyle={{ width: "80%", alignSelf: "center" }}
+              style={{ width: "80%", alignSelf: "center" }}
+            />
+            <TextInput
+              style={styles.input}
+              placeholder="Days"
+              keyboardType="numeric"
+              value={mountainDays}
+              onChangeText={(text) => setMountainDays(text)}
+            />
+            {/* <TextInput
                         style={styles.input}
                         keyboardType='email-address'
                         placeholder="Email"
                         value={userEmail}
                         onChangeText={text => setUserEmail(text)}
                     /> */}
-                    <Button title="Add Mountain" onPress={() => { handleAddMountain(); setModalVisible(false); }} />
-                    <Button title="Cancel" onPress={() => setModalVisible(false)} />
-                </View>
-            </Modal>
-        </View>
+            <Button
+              title="Add Mountain"
+              onPress={() => {
+                handleAddMountain();
+                setModalVisible(false);
+              }}
+            />
+            <Button title="Cancel" onPress={() => setModalVisible(false)} />
+          </View>
+        </Modal>
+      </View>
     );
 }
 

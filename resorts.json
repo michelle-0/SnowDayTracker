@@ -1,0 +1,1641 @@
+[
+    {
+        "slug": "49-degrees-north",
+        "name": "49 Degrees North",
+        "country": "US",
+        "region": "WA",
+        "location": {
+            "latitude": 48.302353,
+            "longitude": -117.564011
+        },
+        "url": "https://api.skiapi.com/v1/resort/49-degrees-north"
+    },
+    {
+        "slug": "alpine-meadows",
+        "name": "Alpine Meadows",
+        "country": "US",
+        "region": "CA",
+        "location": {
+            "latitude": 39.148201,
+            "longitude": -120.150902
+        },
+        "url": "https://api.skiapi.com/v1/resort/alpine-meadows"
+    },
+    {
+        "slug": "alta",
+        "name": "Alta",
+        "country": "US",
+        "region": "UT",
+        "location": {
+            "latitude": 40.583828,
+            "longitude": -111.63726
+        },
+        "url": "https://api.skiapi.com/v1/resort/alta"
+    },
+    {
+        "slug": "alyeska",
+        "name": "Alyeska",
+        "country": "US",
+        "region": "AK",
+        "location": {
+            "latitude": 60.961445,
+            "longitude": -149.102676
+        },
+        "url": "https://api.skiapi.com/v1/resort/alyeska"
+    },
+    {
+        "slug": "angel-fire",
+        "name": "Angel Fire",
+        "country": "US",
+        "region": "NM",
+        "location": {
+            "latitude": 36.387402,
+            "longitude": -105.273903
+        },
+        "url": "https://api.skiapi.com/v1/resort/angel-fire"
+    },
+    {
+        "slug": "arapahoe-basin",
+        "name": "Arapaho Basin",
+        "country": "US",
+        "region": "CO",
+        "location": {
+            "latitude": 39.642464,
+            "longitude": -105.871872
+        },
+        "url": "https://api.skiapi.com/v1/resort/arapahoe-basin"
+    },
+    {
+        "slug": "aspen-highlands",
+        "name": "Aspen Highlands",
+        "country": "US",
+        "region": "CO",
+        "location": {
+            "latitude": 39.182522,
+            "longitude": -106.855904
+        },
+        "url": "https://api.skiapi.com/v1/resort/aspen-highlands"
+    },
+    {
+        "slug": "aspen-mountain",
+        "name": "Aspen Mountain",
+        "country": "US",
+        "region": "CO",
+        "location": {
+            "latitude": 39.186714,
+            "longitude": -106.819275
+        },
+        "url": "https://api.skiapi.com/v1/resort/aspen-mountain"
+    },
+    {
+        "slug": "attitash",
+        "name": "Attitash",
+        "country": "US",
+        "region": "NH",
+        "location": {
+            "latitude": 44.077778,
+            "longitude": -71.282776
+        },
+        "url": "https://api.skiapi.com/v1/resort/attitash"
+    },
+    {
+        "slug": "beavercreek",
+        "name": "Beaver Creek",
+        "country": "US",
+        "region": "CO",
+        "location": {
+            "latitude": 39.600464,
+            "longitude": -106.517899
+        },
+        "url": "https://api.skiapi.com/v1/resort/beavercreek"
+    },
+    {
+        "slug": "big-sky",
+        "name": "Big Sky",
+        "country": "US",
+        "region": "MT",
+        "location": {
+            "latitude": 45.283333,
+            "longitude": -111.401389
+        },
+        "url": "https://api.skiapi.com/v1/resort/big-sky"
+    },
+    {
+        "slug": "big-white",
+        "name": "Big White",
+        "country": "CA",
+        "region": "BC",
+        "location": {
+            "latitude": 49.888,
+            "longitude": -119.495399
+        },
+        "url": "https://api.skiapi.com/v1/resort/big-white"
+    },
+    {
+        "slug": "bluemountain",
+        "name": "Blue Mountain",
+        "country": "CA",
+        "region": "ON",
+        "location": {
+            "latitude": 44.50758,
+            "longitude": -80.316116
+        },
+        "url": "https://api.skiapi.com/v1/resort/bluemountain"
+    },
+    {
+        "slug": "bolton-valley",
+        "name": "Bolton Valley",
+        "country": "US",
+        "region": "VT",
+        "location": {
+            "latitude": 44.421673,
+            "longitude": -72.84948
+        },
+        "url": "https://api.skiapi.com/v1/resort/bolton-valley"
+    },
+    {
+        "slug": "boreal",
+        "name": "Boreal",
+        "country": "US",
+        "region": "CA",
+        "location": {
+            "latitude": 39.316502,
+            "longitude": -120.270203
+        },
+        "url": "https://api.skiapi.com/v1/resort/boreal"
+    },
+    {
+        "slug": "breck",
+        "name": "Breckenridge",
+        "country": "US",
+        "region": "CO",
+        "location": {
+            "latitude": 39.480724,
+            "longitude": -106.066238
+        },
+        "url": "https://api.skiapi.com/v1/resort/breck"
+    },
+    {
+        "slug": "brettonwoods",
+        "name": "Bretton Woods",
+        "country": "US",
+        "region": "NH",
+        "location": {
+            "latitude": 44.077122,
+            "longitude": -71.340408
+        },
+        "url": "https://api.skiapi.com/v1/resort/brettonwoods"
+    },
+    {
+        "slug": "brianhead",
+        "name": "Brian Head",
+        "country": "US",
+        "region": "UT",
+        "location": {
+            "latitude": 37.692753,
+            "longitude": -112.848129
+        },
+        "url": "https://api.skiapi.com/v1/resort/brianhead"
+    },
+    {
+        "slug": "bridger-bowl",
+        "name": "Bridger Bowl",
+        "country": "US",
+        "region": "MT",
+        "location": {
+            "latitude": 45.817974,
+            "longitude": -110.89814
+        },
+        "url": "https://api.skiapi.com/v1/resort/bridger-bowl"
+    },
+    {
+        "slug": "brighton",
+        "name": "Brighton",
+        "country": "US",
+        "region": "UT",
+        "location": {
+            "latitude": 40.620697,
+            "longitude": -111.592041
+        },
+        "url": "https://api.skiapi.com/v1/resort/brighton"
+    },
+    {
+        "slug": "bromley-mountain",
+        "name": "Bromley Mountain",
+        "country": "US",
+        "region": "VT",
+        "location": {
+            "latitude": 43.213402,
+            "longitude": -72.935013
+        },
+        "url": "https://api.skiapi.com/v1/resort/bromley-mountain"
+    },
+    {
+        "slug": "burke-mountain",
+        "name": "Burke Mountain",
+        "country": "US",
+        "region": "VT",
+        "location": {
+            "latitude": 44.587898,
+            "longitude": -71.91745
+        },
+        "url": "https://api.skiapi.com/v1/resort/burke-mountain"
+    },
+    {
+        "slug": "buttermilk",
+        "name": "Buttermilk",
+        "country": "US",
+        "region": "CO",
+        "location": {
+            "latitude": 39.206944,
+            "longitude": -106.860474
+        },
+        "url": "https://api.skiapi.com/v1/resort/buttermilk"
+    },
+    {
+        "slug": "caberfae-peaks",
+        "name": "Caberfae Peaks",
+        "country": "US",
+        "region": "MI",
+        "location": {
+            "latitude": 44.245014,
+            "longitude": -85.719765
+        },
+        "url": "https://api.skiapi.com/v1/resort/caberfae-peaks"
+    },
+    {
+        "slug": "camelback",
+        "name": "Camelback Mountain",
+        "country": "US",
+        "region": "PA",
+        "location": {
+            "latitude": 41.051389,
+            "longitude": -75.355
+        },
+        "url": "https://api.skiapi.com/v1/resort/camelback"
+    },
+    {
+        "slug": "canada-olympic-park",
+        "name": "Canada Olympic Park",
+        "country": "CA",
+        "region": "AB",
+        "location": {
+            "latitude": 51.079722,
+            "longitude": -114.215833
+        },
+        "url": "https://api.skiapi.com/v1/resort/canada-olympic-park"
+    },
+    {
+        "slug": "cannon",
+        "name": "Cannon",
+        "country": "US",
+        "region": "NH",
+        "location": {
+            "latitude": 44.156452,
+            "longitude": -71.698418
+        },
+        "url": "https://api.skiapi.com/v1/resort/cannon"
+    },
+    {
+        "slug": "cataloochee",
+        "name": "Cataloochee",
+        "country": "US",
+        "region": "NC",
+        "location": {
+            "latitude": 35.562656,
+            "longitude": -83.090027
+        },
+        "url": "https://api.skiapi.com/v1/resort/cataloochee"
+    },
+    {
+        "slug": "chinapeak",
+        "name": "China Peak",
+        "country": "US",
+        "region": "CA",
+        "location": {
+            "latitude": 37.228348,
+            "longitude": -119.161705
+        },
+        "url": "https://api.skiapi.com/v1/resort/chinapeak"
+    },
+    {
+        "slug": "claviere",
+        "name": "Cesana Claviere",
+        "country": "IT",
+        "region": "TO",
+        "location": {
+            "latitude": 44.933333,
+            "longitude": 6.75
+        },
+        "url": "https://api.skiapi.com/v1/resort/claviere"
+    },
+    {
+        "slug": "copper",
+        "name": "Copper Mountain",
+        "country": "US",
+        "region": "CO",
+        "location": {
+            "latitude": 39.501125,
+            "longitude": -106.155998
+        },
+        "url": "https://api.skiapi.com/v1/resort/copper"
+    },
+    {
+        "slug": "coronetpeak",
+        "name": "Coronet Peak",
+        "country": "NZ",
+        "region": "OTA",
+        "location": {
+            "latitude": -44.926898,
+            "longitude": 168.736053
+        },
+        "url": "https://api.skiapi.com/v1/resort/coronetpeak"
+    },
+    {
+        "slug": "courchevel",
+        "name": "Courchevel - 3 Vallees",
+        "country": "FR",
+        "region": "ARA",
+        "location": {
+            "latitude": 45.415,
+            "longitude": 6.6339
+        },
+        "url": "https://api.skiapi.com/v1/resort/courchevel"
+    },
+    {
+        "slug": "cranmore-mountain",
+        "name": "Cranmore",
+        "country": "US",
+        "region": "NH",
+        "location": {
+            "latitude": 44.055382,
+            "longitude": -71.116783
+        },
+        "url": "https://api.skiapi.com/v1/resort/cranmore-mountain"
+    },
+    {
+        "slug": "cransmontana",
+        "name": "Crans-Montana",
+        "country": "CH",
+        "region": "VS",
+        "location": {
+            "latitude": 46.3087,
+            "longitude": 7.4674
+        },
+        "url": "https://api.skiapi.com/v1/resort/cransmontana"
+    },
+    {
+        "slug": "crested-butte",
+        "name": "Crested Butte",
+        "country": "US",
+        "region": "CO",
+        "location": {
+            "latitude": 38.899502,
+            "longitude": -106.964821
+        },
+        "url": "https://api.skiapi.com/v1/resort/crested-butte"
+    },
+    {
+        "slug": "crystal-mountain",
+        "name": "Crystal Mountain",
+        "country": "US",
+        "region": "WA",
+        "location": {
+            "latitude": 46.9459,
+            "longitude": -121.5802
+        },
+        "url": "https://api.skiapi.com/v1/resort/crystal-mountain"
+    },
+    {
+        "slug": "cypress-mountain",
+        "name": "Cypress Mountain",
+        "country": "CA",
+        "region": "BC",
+        "location": {
+            "latitude": 49.37141,
+            "longitude": -123.19557
+        },
+        "url": "https://api.skiapi.com/v1/resort/cypress-mountain"
+    },
+    {
+        "slug": "deer-valley",
+        "name": "Deer Valley",
+        "country": "US",
+        "region": "UT",
+        "location": {
+            "latitude": 40.620499,
+            "longitude": -111.489555
+        },
+        "url": "https://api.skiapi.com/v1/resort/deer-valley"
+    },
+    {
+        "slug": "devils-head",
+        "name": "Devil's Head",
+        "country": "US",
+        "region": "WI",
+        "location": {
+            "latitude": 43.4016,
+            "longitude": -89.636703
+        },
+        "url": "https://api.skiapi.com/v1/resort/devils-head"
+    },
+    {
+        "slug": "diamondpeak",
+        "name": "Diamond Peak",
+        "country": "US",
+        "region": "NV",
+        "location": {
+            "latitude": 39.249599,
+            "longitude": -119.930199
+        },
+        "url": "https://api.skiapi.com/v1/resort/diamondpeak"
+    },
+    {
+        "slug": "falls-creek",
+        "name": "Falls Creek",
+        "country": "AU",
+        "region": "VIC",
+        "location": {
+            "latitude": -36.8659,
+            "longitude": 147.287
+        },
+        "url": "https://api.skiapi.com/v1/resort/falls-creek"
+    },
+    {
+        "slug": "folgarida-marilleva",
+        "name": "Folgarida Marilleva",
+        "country": "IT",
+        "region": "TN",
+        "location": {
+            "latitude": 46.284751,
+            "longitude": 10.828321
+        },
+        "url": "https://api.skiapi.com/v1/resort/folgarida-marilleva"
+    },
+    {
+        "slug": "gore-mountain",
+        "name": "Gore Mountain",
+        "country": "US",
+        "region": "NY",
+        "location": {
+            "latitude": 43.672653,
+            "longitude": -74.007172
+        },
+        "url": "https://api.skiapi.com/v1/resort/gore-mountain"
+    },
+    {
+        "slug": "grand-targhee",
+        "name": "Grand Targhee",
+        "country": "US",
+        "region": "WY",
+        "location": {
+            "latitude": 43.742401,
+            "longitude": -111.065201
+        },
+        "url": "https://api.skiapi.com/v1/resort/grand-targhee"
+    },
+    {
+        "slug": "grouse",
+        "name": "Grouse Mountain",
+        "country": "CA",
+        "region": "BC",
+        "location": {
+            "latitude": 49.379292,
+            "longitude": -123.083099
+        },
+        "url": "https://api.skiapi.com/v1/resort/grouse"
+    },
+    {
+        "slug": "gunstock",
+        "name": "Gunstock",
+        "country": "US",
+        "region": "NH",
+        "location": {
+            "latitude": 43.551796,
+            "longitude": -71.360092
+        },
+        "url": "https://api.skiapi.com/v1/resort/gunstock"
+    },
+    {
+        "slug": "heavenly",
+        "name": "Heavenly",
+        "country": "US",
+        "region": "CA",
+        "location": {
+            "latitude": 38.936611,
+            "longitude": -119.939629
+        },
+        "url": "https://api.skiapi.com/v1/resort/heavenly"
+    },
+    {
+        "slug": "hochfuegen",
+        "name": "Hochfügen",
+        "country": "AT",
+        "region": "7",
+        "location": {
+            "latitude": 47.26889038,
+            "longitude": 11.77694416
+        },
+        "url": "https://api.skiapi.com/v1/resort/hochfuegen"
+    },
+    {
+        "slug": "homewood",
+        "name": "Homewood",
+        "country": "US",
+        "region": "CA",
+        "location": {
+            "latitude": 39.063099,
+            "longitude": -120.219498
+        },
+        "url": "https://api.skiapi.com/v1/resort/homewood"
+    },
+    {
+        "slug": "hoodoo",
+        "name": "Hoodoo",
+        "country": "US",
+        "region": "OR",
+        "location": {
+            "latitude": 44.408646,
+            "longitude": -121.871513
+        },
+        "url": "https://api.skiapi.com/v1/resort/hoodoo"
+    },
+    {
+        "slug": "hunter",
+        "name": "Hunter Mountain",
+        "country": "US",
+        "region": "NY",
+        "location": {
+            "latitude": 42.205029,
+            "longitude": -74.20874
+        },
+        "url": "https://api.skiapi.com/v1/resort/hunter"
+    },
+    {
+        "slug": "ischgl-silvretta-arena",
+        "name": "Ischgl - Silvretta",
+        "country": "AT",
+        "region": "7",
+        "location": {
+            "latitude": 47.010101,
+            "longitude": 10.2887
+        },
+        "url": "https://api.skiapi.com/v1/resort/ischgl-silvretta-arena"
+    },
+    {
+        "slug": "jackson-hole",
+        "name": "Jackson Hole",
+        "country": "US",
+        "region": "WY",
+        "location": {
+            "latitude": 43.588318,
+            "longitude": -110.827438
+        },
+        "url": "https://api.skiapi.com/v1/resort/jackson-hole"
+    },
+    {
+        "slug": "jay-peak",
+        "name": "Jay Peak",
+        "country": "US",
+        "region": "VT",
+        "location": {
+            "latitude": 44.928837,
+            "longitude": -72.501701
+        },
+        "url": "https://api.skiapi.com/v1/resort/jay-peak"
+    },
+    {
+        "slug": "jiminypeak",
+        "name": "Jiminy Peak",
+        "country": "US",
+        "region": "MA",
+        "location": {
+            "latitude": 42.556477,
+            "longitude": -73.291328
+        },
+        "url": "https://api.skiapi.com/v1/resort/jiminypeak"
+    },
+    {
+        "slug": "june-mountain",
+        "name": "June Mountain",
+        "country": "US",
+        "region": "CA",
+        "location": {
+            "latitude": 37.767796,
+            "longitude": -119.090721
+        },
+        "url": "https://api.skiapi.com/v1/resort/june-mountain"
+    },
+    {
+        "slug": "keystone",
+        "name": "Keystone",
+        "country": "US",
+        "region": "CO",
+        "location": {
+            "latitude": 39.605011,
+            "longitude": -105.953438
+        },
+        "url": "https://api.skiapi.com/v1/resort/keystone"
+    },
+    {
+        "slug": "killington",
+        "name": "Killington",
+        "country": "US",
+        "region": "VT",
+        "location": {
+            "latitude": 43.619675,
+            "longitude": -72.802879
+        },
+        "url": "https://api.skiapi.com/v1/resort/killington"
+    },
+    {
+        "slug": "king-pine",
+        "name": "King Pine",
+        "country": "US",
+        "region": "NH",
+        "location": {
+            "latitude": 43.86063,
+            "longitude": -71.088127
+        },
+        "url": "https://api.skiapi.com/v1/resort/king-pine"
+    },
+    {
+        "slug": "kirkwood",
+        "name": "Kirkwood",
+        "country": "US",
+        "region": "CA",
+        "location": {
+            "latitude": 38.683231,
+            "longitude": -120.066856
+        },
+        "url": "https://api.skiapi.com/v1/resort/kirkwood"
+    },
+    {
+        "slug": "kitzbuehel",
+        "name": "Kitzbühel",
+        "country": "AT",
+        "region": "7",
+        "location": {
+            "latitude": 47.446602,
+            "longitude": 12.3908
+        },
+        "url": "https://api.skiapi.com/v1/resort/kitzbuehel"
+    },
+    {
+        "slug": "laplagne",
+        "name": "La Plagne",
+        "country": "FR",
+        "region": "V",
+        "location": {
+            "latitude": 45.5064,
+            "longitude": 6.6772
+        },
+        "url": "https://api.skiapi.com/v1/resort/laplagne"
+    },
+    {
+        "slug": "larosiere",
+        "name": "La Rosière",
+        "country": "FR",
+        "region": "ARA",
+        "location": {
+            "latitude": 45.6272,
+            "longitude": 6.8492
+        },
+        "url": "https://api.skiapi.com/v1/resort/larosiere"
+    },
+    {
+        "slug": "lesarcs",
+        "name": "Les Arcs",
+        "country": "FR",
+        "region": "ARA",
+        "location": {
+            "latitude": 45.5722,
+            "longitude": 6.8288
+        },
+        "url": "https://api.skiapi.com/v1/resort/lesarcs"
+    },
+    {
+        "slug": "lesmenuires",
+        "name": "Les Menuires",
+        "country": "FR",
+        "region": "ARA",
+        "location": {
+            "latitude": 45.3236,
+            "longitude": 6.5375
+        },
+        "url": "https://api.skiapi.com/v1/resort/lesmenuires"
+    },
+    {
+        "slug": "loon",
+        "name": "Loon Mountain",
+        "country": "US",
+        "region": "NH",
+        "location": {
+            "latitude": 44.056583,
+            "longitude": -71.625809
+        },
+        "url": "https://api.skiapi.com/v1/resort/loon"
+    },
+    {
+        "slug": "loveland",
+        "name": "Loveland",
+        "country": "US",
+        "region": "CO",
+        "location": {
+            "latitude": 39.679993,
+            "longitude": -105.89595
+        },
+        "url": "https://api.skiapi.com/v1/resort/loveland"
+    },
+    {
+        "slug": "mad-river-glen",
+        "name": "Mad River Glen",
+        "country": "US",
+        "region": "VT",
+        "location": {
+            "latitude": 44.201653,
+            "longitude": -72.919006
+        },
+        "url": "https://api.skiapi.com/v1/resort/mad-river-glen"
+    },
+    {
+        "slug": "madonna-di-campiglio",
+        "name": "Madonna di Campiglio",
+        "country": "IT",
+        "region": "32",
+        "location": {
+            "latitude": 46.231944,
+            "longitude": 10.826111
+        },
+        "url": "https://api.skiapi.com/v1/resort/madonna-di-campiglio"
+    },
+    {
+        "slug": "mammoth-lakes",
+        "name": "Mammoth Mountain",
+        "country": "US",
+        "region": "CA",
+        "location": {
+            "latitude": 37.651772,
+            "longitude": -119.037346
+        },
+        "url": "https://api.skiapi.com/v1/resort/mammoth-lakes"
+    },
+    {
+        "slug": "manning-park",
+        "name": "Manning Park",
+        "country": "CA",
+        "region": "BC",
+        "location": {
+            "latitude": 49.06906966124412,
+            "longitude": -120.91434120055804
+        },
+        "url": "https://api.skiapi.com/v1/resort/manning-park"
+    },
+    {
+        "slug": "megeve",
+        "name": "Megève",
+        "country": "FR",
+        "region": "ARA",
+        "location": {
+            "latitude": 45.8578,
+            "longitude": 6.6181
+        },
+        "url": "https://api.skiapi.com/v1/resort/megeve"
+    },
+    {
+        "slug": "meribel",
+        "name": "Meribel",
+        "country": "FR",
+        "region": "ARA",
+        "location": {
+            "latitude": 45.3967,
+            "longitude": 6.5655
+        },
+        "url": "https://api.skiapi.com/v1/resort/meribel"
+    },
+    {
+        "slug": "monarch",
+        "name": "Monarch Mountain",
+        "country": "US",
+        "region": "CO",
+        "location": {
+            "latitude": 38.512714,
+            "longitude": -106.331696
+        },
+        "url": "https://api.skiapi.com/v1/resort/monarch"
+    },
+    {
+        "slug": "montegenevre",
+        "name": "Montgenevre",
+        "country": "FR",
+        "region": "PAC",
+        "location": {
+            "latitude": 44.9316,
+            "longitude": 6.7219
+        },
+        "url": "https://api.skiapi.com/v1/resort/montegenevre"
+    },
+    {
+        "slug": "morzine",
+        "name": "Morzine",
+        "country": "FR",
+        "region": "ARA",
+        "location": {
+            "latitude": 46.1789,
+            "longitude": 6.7089
+        },
+        "url": "https://api.skiapi.com/v1/resort/morzine"
+    },
+    {
+        "slug": "mount-sunapee",
+        "name": "Mount Sunapee",
+        "country": "US",
+        "region": "NH",
+        "location": {
+            "latitude": 43.341194,
+            "longitude": -72.075394
+        },
+        "url": "https://api.skiapi.com/v1/resort/mount-sunapee"
+    },
+    {
+        "slug": "mountsnow",
+        "name": "Mount Snow",
+        "country": "US",
+        "region": "VT",
+        "location": {
+            "latitude": 42.968166,
+            "longitude": -72.8936
+        },
+        "url": "https://api.skiapi.com/v1/resort/mountsnow"
+    },
+    {
+        "slug": "mt-buller",
+        "name": "Mount Buller",
+        "country": "AU",
+        "region": "VIC",
+        "location": {
+            "latitude": -37.1462,
+            "longitude": 146.44982
+        },
+        "url": "https://api.skiapi.com/v1/resort/mt-buller"
+    },
+    {
+        "slug": "mt-hotham",
+        "name": "Mount Hotham",
+        "country": "AU",
+        "region": "VIC",
+        "location": {
+            "latitude": -36.9752,
+            "longitude": 147.1328
+        },
+        "url": "https://api.skiapi.com/v1/resort/mt-hotham"
+    },
+    {
+        "slug": "mt-seymour",
+        "name": "Mount Seymour",
+        "country": "CA",
+        "region": "BC",
+        "location": {
+            "latitude": 49.36557060120715,
+            "longitude": -122.94820807713377
+        },
+        "url": "https://api.skiapi.com/v1/resort/mt-seymour"
+    },
+    {
+        "slug": "mt-spokane",
+        "name": "Mt Spokane",
+        "country": "US",
+        "region": "WA",
+        "location": {
+            "latitude": 47.921261,
+            "longitude": -117.096107
+        },
+        "url": "https://api.skiapi.com/v1/resort/mt-spokane"
+    },
+    {
+        "slug": "mtbachelor",
+        "name": "Mount Bachelor",
+        "country": "US",
+        "region": "OR",
+        "location": {
+            "latitude": 44.003559,
+            "longitude": -121.67865
+        },
+        "url": "https://api.skiapi.com/v1/resort/mtbachelor"
+    },
+    {
+        "slug": "mtbrighton",
+        "name": "Mt Brighton",
+        "country": "US",
+        "region": "MI",
+        "location": {
+            "latitude": 42.540783,
+            "longitude": -83.811553
+        },
+        "url": "https://api.skiapi.com/v1/resort/mtbrighton"
+    },
+    {
+        "slug": "mthigh",
+        "name": "Mountain High",
+        "country": "US",
+        "region": "CA",
+        "location": {
+            "latitude": 34.376888,
+            "longitude": -117.691544
+        },
+        "url": "https://api.skiapi.com/v1/resort/mthigh"
+    },
+    {
+        "slug": "mthood",
+        "name": "Mount Hood",
+        "country": "US",
+        "region": "OR",
+        "location": {
+            "latitude": 45.331936,
+            "longitude": -121.665688
+        },
+        "url": "https://api.skiapi.com/v1/resort/mthood"
+    },
+    {
+        "slug": "mtrose",
+        "name": "Mount Rose",
+        "country": "US",
+        "region": "NV",
+        "location": {
+            "latitude": 39.3283,
+            "longitude": -119.878601
+        },
+        "url": "https://api.skiapi.com/v1/resort/mtrose"
+    },
+    {
+        "slug": "niseko",
+        "name": "Niseko",
+        "country": "JP",
+        "region": "01",
+        "location": {
+            "latitude": 42.8,
+            "longitude": 140.683333
+        },
+        "url": "https://api.skiapi.com/v1/resort/niseko"
+    },
+    {
+        "slug": "northstar",
+        "name": "Northstar",
+        "country": "US",
+        "region": "CA",
+        "location": {
+            "latitude": 39.275173,
+            "longitude": -120.122086
+        },
+        "url": "https://api.skiapi.com/v1/resort/northstar"
+    },
+    {
+        "slug": "okemo",
+        "name": "Okemo",
+        "country": "US",
+        "region": "VT",
+        "location": {
+            "latitude": 43.401806,
+            "longitude": -72.716705
+        },
+        "url": "https://api.skiapi.com/v1/resort/okemo"
+    },
+    {
+        "slug": "owlshead",
+        "name": "Owl's Head",
+        "country": "CA",
+        "region": "QC",
+        "location": {
+            "latitude": 45.074642,
+            "longitude": -72.297806
+        },
+        "url": "https://api.skiapi.com/v1/resort/owlshead"
+    },
+    {
+        "slug": "palisades",
+        "name": "Palisades Tahoe",
+        "country": "US",
+        "region": "CA",
+        "location": {
+            "latitude": 39.196045,
+            "longitude": -120.233299
+        },
+        "url": "https://api.skiapi.com/v1/resort/palisades"
+    },
+    {
+        "slug": "parkcity",
+        "name": "Park City",
+        "country": "US",
+        "region": "UT",
+        "location": {
+            "latitude": 40.651375,
+            "longitude": -111.508118
+        },
+        "url": "https://api.skiapi.com/v1/resort/parkcity"
+    },
+    {
+        "slug": "pats-peak",
+        "name": "Pats Peak",
+        "country": "US",
+        "region": "NH",
+        "location": {
+            "latitude": 43.180679,
+            "longitude": -71.833412
+        },
+        "url": "https://api.skiapi.com/v1/resort/pats-peak"
+    },
+    {
+        "slug": "perisher",
+        "name": "Perisher",
+        "country": "AU",
+        "region": "NSW",
+        "location": {
+            "latitude": -36.4,
+            "longitude": 148.41
+        },
+        "url": "https://api.skiapi.com/v1/resort/perisher"
+    },
+    {
+        "slug": "pico",
+        "name": "Pico Mountain",
+        "country": "US",
+        "region": "VT",
+        "location": {
+            "latitude": 43.663277,
+            "longitude": -72.842613
+        },
+        "url": "https://api.skiapi.com/v1/resort/pico"
+    },
+    {
+        "slug": "pinzolo",
+        "name": "Pinzolo",
+        "country": "IT",
+        "region": "32",
+        "location": {
+            "latitude": 46.166667,
+            "longitude": 10.75
+        },
+        "url": "https://api.skiapi.com/v1/resort/pinzolo"
+    },
+    {
+        "slug": "pontedilegno-tonale",
+        "name": "Ponte di Legno - Tonale",
+        "country": "IT",
+        "region": "BS",
+        "location": {
+            "latitude": 46.258056,
+            "longitude": 10.580833
+        },
+        "url": "https://api.skiapi.com/v1/resort/pontedilegno-tonale"
+    },
+    {
+        "slug": "ragged-mountain",
+        "name": "Ragged Mountain",
+        "country": "US",
+        "region": "NH",
+        "location": {
+            "latitude": 43.486305,
+            "longitude": -71.842003
+        },
+        "url": "https://api.skiapi.com/v1/resort/ragged-mountain"
+    },
+    {
+        "slug": "red-lodge-mountain",
+        "name": "Red Lodge Mountain",
+        "country": "US",
+        "region": "MT",
+        "location": {
+            "latitude": 45.191021,
+            "longitude": -109.335037
+        },
+        "url": "https://api.skiapi.com/v1/resort/red-lodge-mountain"
+    },
+    {
+        "slug": "red-mountain",
+        "name": "Red Mountain",
+        "country": "CA",
+        "region": "BC",
+        "location": {
+            "latitude": 49.105343,
+            "longitude": -117.819099
+        },
+        "url": "https://api.skiapi.com/v1/resort/red-mountain"
+    },
+    {
+        "slug": "revelstoke",
+        "name": "Revelstoke",
+        "country": "CA",
+        "region": "BC",
+        "location": {
+            "latitude": 0.0000,
+            "longitude": 0.00000
+        },
+        "url": "https://api.skiapi.com/v1/resort/revelstoke"
+    },
+    {
+        "slug": "saddleback",
+        "name": "Saddleback",
+        "country": "US",
+        "region": "ME",
+        "location": {
+            "latitude": 44.983387,
+            "longitude": -70.632965
+        },
+        "url": "https://api.skiapi.com/v1/resort/saddleback"
+    },
+    {
+        "slug": "sansicario",
+        "name": "Cesana San Sicario",
+        "country": "IT",
+        "region": "21",
+        "location": {
+            "latitude": 44.95812,
+            "longitude": 6.8062
+        },
+        "url": "https://api.skiapi.com/v1/resort/sansicario"
+    },
+    {
+        "slug": "sasquatch-mountain",
+        "name": "Sasquatch Mountain",
+        "country": "CA",
+        "region": "BC",
+        "location": {
+            "latitude": 49.38000608027801,
+            "longitude": -121.93556496672508
+        },
+        "url": "https://api.skiapi.com/v1/resort/sasquatch-mountain"
+    },
+    {
+        "slug": "sauze",
+        "name": "Sauze d'Oulx",
+        "country": "IT",
+        "region": "21",
+        "location": {
+            "latitude": 45.016667,
+            "longitude": 6.85
+        },
+        "url": "https://api.skiapi.com/v1/resort/sauze"
+    },
+    {
+        "slug": "schweitzer",
+        "name": "Schweitzer",
+        "country": "US",
+        "region": "ID",
+        "location": {
+            "latitude": 48.538433,
+            "longitude": -116.643562
+        },
+        "url": "https://api.skiapi.com/v1/resort/schweitzer"
+    },
+    {
+        "slug": "sestriere",
+        "name": "Sestriere",
+        "country": "IT",
+        "region": "21",
+        "location": {
+            "latitude": 44.95,
+            "longitude": 6.883333
+        },
+        "url": "https://api.skiapi.com/v1/resort/sestriere"
+    },
+    {
+        "slug": "shawnee-mountain",
+        "name": "Shawnee Mountain",
+        "country": "US",
+        "region": "PA",
+        "location": {
+            "latitude": 41.03688,
+            "longitude": -75.078117
+        },
+        "url": "https://api.skiapi.com/v1/resort/shawnee-mountain"
+    },
+    {
+        "slug": "shawnee-peak",
+        "name": "Shawnee Peak",
+        "country": "US",
+        "region": "ME",
+        "location": {
+            "latitude": 44.053791,
+            "longitude": -70.817528
+        },
+        "url": "https://api.skiapi.com/v1/resort/shawnee-peak"
+    },
+    {
+        "slug": "sierra",
+        "name": "Sierra at Tahoe",
+        "country": "US",
+        "region": "CA",
+        "location": {
+            "latitude": 38.792763,
+            "longitude": -120.090012
+        },
+        "url": "https://api.skiapi.com/v1/resort/sierra"
+    },
+    {
+        "slug": "silver-star",
+        "name": "Silver Star",
+        "country": "CA",
+        "region": "BC",
+        "location": {
+            "latitude": 50.438702,
+            "longitude": -119.208603
+        },
+        "url": "https://api.skiapi.com/v1/resort/silver-star"
+    },
+    {
+        "slug": "smuggs",
+        "name": "Smugglers' Notch",
+        "country": "US",
+        "region": "VT",
+        "location": {
+            "latitude": 44.589092,
+            "longitude": -72.78833
+        },
+        "url": "https://api.skiapi.com/v1/resort/smuggs"
+    },
+    {
+        "slug": "snow-valley",
+        "name": "Snow Valley",
+        "country": "US",
+        "region": "CA",
+        "location": {
+            "latitude": 34.228409,
+            "longitude": -117.035667
+        },
+        "url": "https://api.skiapi.com/v1/resort/snow-valley"
+    },
+    {
+        "slug": "snowbasin",
+        "name": "Snowbasin",
+        "country": "US",
+        "region": "UT",
+        "location": {
+            "latitude": 41.214596,
+            "longitude": -111.859703
+        },
+        "url": "https://api.skiapi.com/v1/resort/snowbasin"
+    },
+    {
+        "slug": "snowbird",
+        "name": "Snowbird",
+        "country": "US",
+        "region": "UT",
+        "location": {
+            "latitude": 40.581074,
+            "longitude": -111.657082
+        },
+        "url": "https://api.skiapi.com/v1/resort/snowbird"
+    },
+    {
+        "slug": "snowmass",
+        "name": "Snowmass",
+        "country": "US",
+        "region": "CO",
+        "location": {
+            "latitude": 39.198471,
+            "longitude": -106.949158
+        },
+        "url": "https://api.skiapi.com/v1/resort/snowmass"
+    },
+    {
+        "slug": "snowshoe",
+        "name": "Snowshoe Mountain",
+        "country": "US",
+        "region": "WV",
+        "location": {
+            "latitude": 38.400002,
+            "longitude": -79.989998
+        },
+        "url": "https://api.skiapi.com/v1/resort/snowshoe"
+    },
+    {
+        "slug": "soelden",
+        "name": "Sölden",
+        "country": "AT",
+        "region": "7",
+        "location": {
+            "latitude": 11.0092,
+            "longitude": 46.9702
+        },
+        "url": "https://api.skiapi.com/v1/resort/soelden"
+    },
+    {
+        "slug": "solitude",
+        "name": "Solitude",
+        "country": "US",
+        "region": "UT",
+        "location": {
+            "latitude": 40.625648,
+            "longitude": -111.600708
+        },
+        "url": "https://api.skiapi.com/v1/resort/solitude"
+    },
+    {
+        "slug": "st-anton-am-arlberg",
+        "name": "St. Anton Am Arlberg",
+        "country": "AT",
+        "region": "7",
+        "location": {
+            "latitude": 47.127499,
+            "longitude": 10.264
+        },
+        "url": "https://api.skiapi.com/v1/resort/st-anton-am-arlberg"
+    },
+    {
+        "slug": "steamboat",
+        "name": "Steamboat",
+        "country": "US",
+        "region": "CO",
+        "location": {
+            "latitude": 40.458214,
+            "longitude": -106.805733
+        },
+        "url": "https://api.skiapi.com/v1/resort/steamboat"
+    },
+    {
+        "slug": "stevens",
+        "name": "Stevens Pass",
+        "country": "US",
+        "region": "WA",
+        "location": {
+            "latitude": 47.76046,
+            "longitude": -121.421242
+        },
+        "url": "https://api.skiapi.com/v1/resort/stevens"
+    },
+    {
+        "slug": "stowe",
+        "name": "Stowe",
+        "country": "US",
+        "region": "VT",
+        "location": {
+            "latitude": 44.530502,
+            "longitude": -72.786873
+        },
+        "url": "https://api.skiapi.com/v1/resort/stowe"
+    },
+    {
+        "slug": "stratton",
+        "name": "Stratton",
+        "country": "US",
+        "region": "VT",
+        "location": {
+            "latitude": 43.114017,
+            "longitude": -72.906303
+        },
+        "url": "https://api.skiapi.com/v1/resort/stratton"
+    },
+    {
+        "slug": "sugarbowl",
+        "name": "Sugar Bowl",
+        "country": "US",
+        "region": "CA",
+        "location": {
+            "latitude": 39.305447,
+            "longitude": -120.333206
+        },
+        "url": "https://api.skiapi.com/v1/resort/sugarbowl"
+    },
+    {
+        "slug": "sugarbush",
+        "name": "Sugarbush",
+        "country": "US",
+        "region": "VT",
+        "location": {
+            "latitude": 44.145721,
+            "longitude": -72.879318
+        },
+        "url": "https://api.skiapi.com/v1/resort/sugarbush"
+    },
+    {
+        "slug": "sugarloaf",
+        "name": "Sugarloaf",
+        "country": "US",
+        "region": "ME",
+        "location": {
+            "latitude": 45.06728,
+            "longitude": -70.315147
+        },
+        "url": "https://api.skiapi.com/v1/resort/sugarloaf"
+    },
+    {
+        "slug": "sun-peaks",
+        "name": "Sun Peaks",
+        "country": "CA",
+        "region": "BC",
+        "location": {
+            "latitude": 50.877369,
+            "longitude": -119.9132
+        },
+        "url": "https://api.skiapi.com/v1/resort/sun-peaks"
+    },
+    {
+        "slug": "sunday-river",
+        "name": "Sunday River",
+        "country": "US",
+        "region": "ME",
+        "location": {
+            "latitude": 44.550358,
+            "longitude": -70.907394
+        },
+        "url": "https://api.skiapi.com/v1/resort/sunday-river"
+    },
+    {
+        "slug": "sunshine-village",
+        "name": "Sunshine Village",
+        "country": "CA",
+        "region": "AB",
+        "location": {
+            "latitude": 51.174175,
+            "longitude": -115.682602
+        },
+        "url": "https://api.skiapi.com/v1/resort/sunshine-village"
+    },
+    {
+        "slug": "sunvalley",
+        "name": "Sun Valley",
+        "country": "US",
+        "region": "ID",
+        "location": {
+            "latitude": 43.709999,
+            "longitude": -114.339996
+        },
+        "url": "https://api.skiapi.com/v1/resort/sunvalley"
+    },
+    {
+        "slug": "tahoe-donner",
+        "name": "Tahoe Donner",
+        "country": "US",
+        "region": "CA",
+        "location": {
+            "latitude": 39.354725,
+            "longitude": -120.257957
+        },
+        "url": "https://api.skiapi.com/v1/resort/tahoe-donner"
+    },
+    {
+        "slug": "taos",
+        "name": "Taos Ski Valley",
+        "country": "US",
+        "region": "NM",
+        "location": {
+            "latitude": 36.596199,
+            "longitude": -105.450699
+        },
+        "url": "https://api.skiapi.com/v1/resort/taos"
+    },
+    {
+        "slug": "telluride",
+        "name": "Telluride",
+        "country": "US",
+        "region": "CO",
+        "location": {
+            "latitude": 37.932961,
+            "longitude": -107.850723
+        },
+        "url": "https://api.skiapi.com/v1/resort/telluride"
+    },
+    {
+        "slug": "thredbo",
+        "name": "Thredbo",
+        "country": "AU",
+        "region": "NSW",
+        "location": {
+            "latitude": -36.504722,
+            "longitude": 148.305556
+        },
+        "url": "https://api.skiapi.com/v1/resort/thredbo"
+    },
+    {
+        "slug": "timberline-lodge",
+        "name": "Timberline Lodge",
+        "country": "US",
+        "region": "OR",
+        "location": {
+            "latitude": 45.33,
+            "longitude": -121.71
+        },
+        "url": "https://api.skiapi.com/v1/resort/timberline-lodge"
+    },
+    {
+        "slug": "tremblant",
+        "name": "Mont Tremblant",
+        "country": "CA",
+        "region": "QB",
+        "location": {
+            "latitude": 46.213696,
+            "longitude": -74.584641
+        },
+        "url": "https://api.skiapi.com/v1/resort/tremblant"
+    },
+    {
+        "slug": "vail",
+        "name": "Vail",
+        "country": "US",
+        "region": "CO",
+        "location": {
+            "latitude": 39.605026,
+            "longitude": -106.356155
+        },
+        "url": "https://api.skiapi.com/v1/resort/vail"
+    },
+    {
+        "slug": "val-gardena",
+        "name": "Val Gardena",
+        "country": "IT",
+        "region": "32",
+        "location": {
+            "latitude": 46.56,
+            "longitude": 11.704722
+        },
+        "url": "https://api.skiapi.com/v1/resort/val-gardena"
+    },
+    {
+        "slug": "verbier",
+        "name": "Verbier",
+        "country": "CH",
+        "region": "VS",
+        "location": {
+            "latitude": 46.0935,
+            "longitude": 7.233
+        },
+        "url": "https://api.skiapi.com/v1/resort/verbier"
+    },
+    {
+        "slug": "waterville",
+        "name": "Waterville Valley",
+        "country": "US",
+        "region": "NH",
+        "location": {
+            "latitude": 43.961613,
+            "longitude": -71.519989
+        },
+        "url": "https://api.skiapi.com/v1/resort/waterville"
+    },
+    {
+        "slug": "whistler-blackcomb",
+        "name": "Whistler Blackcomb",
+        "country": "CA",
+        "region": "BC",
+        "location": {
+            "latitude": 50.10693,
+            "longitude": -122.922073
+        },
+        "url": "https://api.skiapi.com/v1/resort/whistler-blackcomb"
+    },
+    {
+        "slug": "whiteface",
+        "name": "Whiteface",
+        "country": "US",
+        "region": "NY",
+        "location": {
+            "latitude": 44.356506,
+            "longitude": -73.870613
+        },
+        "url": "https://api.skiapi.com/v1/resort/whiteface"
+    },
+    {
+        "slug": "wildcat",
+        "name": "Wildcat",
+        "country": "US",
+        "region": "NH",
+        "location": {
+            "latitude": 44.264626,
+            "longitude": -71.236725
+        },
+        "url": "https://api.skiapi.com/v1/resort/wildcat"
+    },
+    {
+        "slug": "windham",
+        "name": "Windham Mountain",
+        "country": "US",
+        "region": "NY",
+        "location": {
+            "latitude": 42.295597,
+            "longitude": -74.259941
+        },
+        "url": "https://api.skiapi.com/v1/resort/windham"
+    },
+    {
+        "slug": "winter-park",
+        "name": "Winter Park",
+        "country": "US",
+        "region": "CO",
+        "location": {
+            "latitude": 39.891563,
+            "longitude": -105.764267
+        },
+        "url": "https://api.skiapi.com/v1/resort/winter-park"
+    },
+    {
+        "slug": "winterplace",
+        "name": "Winterplace",
+        "country": "US",
+        "region": "WV",
+        "location": {
+            "latitude": 37.59594,
+            "longitude": -81.11824
+        },
+        "url": "https://api.skiapi.com/v1/resort/winterplace"
+    }
+]
