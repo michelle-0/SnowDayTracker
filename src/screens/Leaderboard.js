@@ -11,7 +11,6 @@ const Leaderboard = () => {
     fetch(apiUrl)
       .then((response) => response.json())
       .then((data) => {
-        console.log("Raw API data:", data); // Log the raw data
 
         const processedData = Object.entries(data).map(
           ([email, tripsArray]) => {
@@ -46,37 +45,6 @@ const Leaderboard = () => {
         console.error("Error fetching data:", error);
       });
   }, []);
-
-  //   const renderMountainColumn = (mountainData) => {
-  //     return Object.entries(mountainData).map(([mountain, days]) => (
-  //       <Text key={mountain} style={styles.mountainColumn}>
-  //         {days} days
-  //       </Text>
-  //     ));
-  //   };
-
-  //   const renderMountainHeaders = () => {
-  //     const allMountainNames = new Set();
-
-  //     leaderboardData.forEach((item) => {
-  //       Object.keys(item.mountainData).forEach((mountain) => {
-  //         allMountainNames.add(mountain);
-  //       });
-  //     });
-
-  //     return (
-  //       <View style={styles.mountainHeadersContainer}>
-  //         {Array.from(allMountainNames).map((mountain, index) => (
-  //           <Text
-  //             key={index}
-  //             style={[styles.headerText, styles.headerTextSpacing]}
-  //           >
-  //             {mountain}
-  //           </Text>
-  //         ))}
-  //       </View>
-  //     );
-  //   };
 
   const renderItem = ({ item }) => {
     return (
@@ -185,7 +153,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
   },
   headerTextSpacing: {
-    marginRight: 20, // Adjust the margin value as needed
+    marginRight: 20, 
     marginLeft: 20,
   },
 });
