@@ -12,6 +12,7 @@
     "@expo/webpack-config": "^0.17.0",
     "@react-navigation/bottom-tabs": "^6.5.8",
     "@react-navigation/native": "^6.1.7",
+    "@react-navigation/native-stack": "^6.9.13",
     "aws-amplify": "^5.3.5",
     "aws-amplify-react-native": "^7.0.2",
     "expo": "^49.0.0",
