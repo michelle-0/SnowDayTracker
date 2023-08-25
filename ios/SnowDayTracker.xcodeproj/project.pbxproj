@@ -14,6 +14,13 @@
 		96905EF65AED1B983A6B3ABC /* libPods-SnowDayTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-SnowDayTracker.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		0A452FEA4D7343E389A372CA /* ReemKufiFun-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 760387C6A02A4AA49E36628B /* ReemKufiFun-Bold.ttf */; };
+		5FCD369FA3F9491FB66240C3 /* ReemKufiFun-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBCBD5A0153749858DFF2E15 /* ReemKufiFun-Medium.ttf */; };
+		71FBCDE8538E4CC2A948447F /* ReemKufiFun-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D06EF7BAD222496CAD0F9A33 /* ReemKufiFun-Regular.ttf */; };
+		831F0551884F48C88B10C3CD /* ReemKufiFun-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78F909C03A0541D5971EBA61 /* ReemKufiFun-SemiBold.ttf */; };
+		8C774106D8F8494C8D0C6FD5 /* Reem_Kufi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58DF21E0354C491DAE948DC4 /* Reem_Kufi.ttf */; };
+		4BD7999BC8D043E0A9389D9F /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 09D090EF9AA1486BBCA83E9D /* OFL.txt */; };
+		1CA20AE7B2614457BFD72E9F /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53C1CB11878B46999A161D78 /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +38,13 @@
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-SnowDayTracker/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		760387C6A02A4AA49E36628B /* ReemKufiFun-Bold.ttf */ = {isa = PBXFileReference; name = "ReemKufiFun-Bold.ttf"; path = "../assets/fonts/ReemKufiFun-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EBCBD5A0153749858DFF2E15 /* ReemKufiFun-Medium.ttf */ = {isa = PBXFileReference; name = "ReemKufiFun-Medium.ttf"; path = "../assets/fonts/ReemKufiFun-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D06EF7BAD222496CAD0F9A33 /* ReemKufiFun-Regular.ttf */ = {isa = PBXFileReference; name = "ReemKufiFun-Regular.ttf"; path = "../assets/fonts/ReemKufiFun-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		78F909C03A0541D5971EBA61 /* ReemKufiFun-SemiBold.ttf */ = {isa = PBXFileReference; name = "ReemKufiFun-SemiBold.ttf"; path = "../assets/fonts/ReemKufiFun-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		58DF21E0354C491DAE948DC4 /* Reem_Kufi.ttf */ = {isa = PBXFileReference; name = "Reem_Kufi.ttf"; path = "../assets/fonts/Reem_Kufi.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		09D090EF9AA1486BBCA83E9D /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../assets/fonts/Reem_Kufi_Fun/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		53C1CB11878B46999A161D78 /* README.txt */ = {isa = PBXFileReference; name = "README.txt"; path = "../assets/fonts/Reem_Kufi_Fun/README.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +99,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
+				EDE665527AC441DCAEDDB62E /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -132,6 +147,21 @@
 			);
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
+		};
+		EDE665527AC441DCAEDDB62E /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				760387C6A02A4AA49E36628B /* ReemKufiFun-Bold.ttf */,
+				EBCBD5A0153749858DFF2E15 /* ReemKufiFun-Medium.ttf */,
+				D06EF7BAD222496CAD0F9A33 /* ReemKufiFun-Regular.ttf */,
+				78F909C03A0541D5971EBA61 /* ReemKufiFun-SemiBold.ttf */,
+				58DF21E0354C491DAE948DC4 /* Reem_Kufi.ttf */,
+				09D090EF9AA1486BBCA83E9D /* OFL.txt */,
+				53C1CB11878B46999A161D78 /* README.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -196,6 +226,13 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+				0A452FEA4D7343E389A372CA /* ReemKufiFun-Bold.ttf in Resources */,
+				5FCD369FA3F9491FB66240C3 /* ReemKufiFun-Medium.ttf in Resources */,
+				71FBCDE8538E4CC2A948447F /* ReemKufiFun-Regular.ttf in Resources */,
+				831F0551884F48C88B10C3CD /* ReemKufiFun-SemiBold.ttf in Resources */,
+				8C774106D8F8494C8D0C6FD5 /* Reem_Kufi.ttf in Resources */,
+				4BD7999BC8D043E0A9389D9F /* OFL.txt in Resources */,
+				1CA20AE7B2614457BFD72E9F /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

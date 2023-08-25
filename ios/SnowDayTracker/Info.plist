@@ -49,7 +49,15 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-  <key>UIStatusBarStyle</key>
-  <string>UIStatusBarStyleDefault</string>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ReemKufiFun-Bold.ttf</string>
+		<string>ReemKufiFun-Medium.ttf</string>
+		<string>ReemKufiFun-Regular.ttf</string>
+		<string>ReemKufiFun-SemiBold.ttf</string>
+		<string>Reem_Kufi.ttf</string>
+	</array>
 </dict>
 </plist>
