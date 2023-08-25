@@ -12,8 +12,8 @@ const LastCard = () => {
     const [value, setValue] = useState(null);
 
     const items = resortsData.map((resort) => ({
-      label: resort.name, // Assuming 'name' is the property in resortsData
-      value: resort.name, // Assuming 'id' is the property in resortsData
+      label: resort.name, 
+      value: resort.name, 
     }));
 
 
@@ -32,18 +32,15 @@ const LastCard = () => {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
-              // Add any other headers you might need
             },
             body: JSON.stringify(requestData)
           })
             .then(response => response.json())
             .then(data => {
               console.log("Response from API:", data);
-              // Do something with the response data
             })
             .catch(error => {
               console.error("Error:", error);
-              // Handle the error
             });
         }
     
