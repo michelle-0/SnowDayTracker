@@ -4,6 +4,8 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import Tabs from './src/components/Tabs'
 import { useGetWeather } from './src/hooks/useGetWeather'
+import LoginScreen from './src/screens/Login'
+
 // api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
 
 const Tab = createBottomTabNavigator() // initializes tab object for us to use
@@ -15,7 +17,8 @@ const App = () => {
   if (weather && weather.list){
     return (
       <NavigationContainer>
-        <Tabs weather={weather} />
+        <LoginScreen />
+        {/* <Tabs weather={weather} /> */}
       </NavigationContainer> 
     )
   }

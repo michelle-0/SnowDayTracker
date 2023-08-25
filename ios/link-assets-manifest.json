@@ -1,0 +1,33 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/ReemKufiFun-Bold.ttf",
+      "sha1": "0b3ccde4145cd6c3491beb0aaf148e216de58700"
+    },
+    {
+      "path": "assets/fonts/ReemKufiFun-Medium.ttf",
+      "sha1": "1eed24e4da9a5e9781e82a3a085e22f114518677"
+    },
+    {
+      "path": "assets/fonts/ReemKufiFun-Regular.ttf",
+      "sha1": "5b7ccf42de91c48958ce78b52b1bbe9f2b579aec"
+    },
+    {
+      "path": "assets/fonts/ReemKufiFun-SemiBold.ttf",
+      "sha1": "602003dda3a5ea3a275188257476af1437190ecc"
+    },
+    {
+      "path": "assets/fonts/Reem_Kufi.ttf",
+      "sha1": "d151a9ae0bedcc5ffbe52e98dcbdc9d8d019ec19"
+    },
+    {
+      "path": "assets/fonts/Reem_Kufi_Fun/OFL.txt",
+      "sha1": "131d3f88eb583b8ad76d87368705e50b75b106a5"
+    },
+    {
+      "path": "assets/fonts/Reem_Kufi_Fun/README.txt",
+      "sha1": "f9e8317bb6448ea31f4c552fbf0ab22cc8a495aa"
+    }
+  ]
+}
