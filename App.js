@@ -8,6 +8,8 @@ import { useGetWeather } from './src/hooks/useGetWeather'
 import LoginScreen from './src/screens/Login'
 import MyDaysScreen from './src/screens/MyDays'
 import AuthStack from './src/navigation/AuthStack'
+import { Provider } from 'react-redux';
+import store from './src/app/store';
 // api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
 
 const Tab = createBottomTabNavigator() // initializes tab object for us to use
@@ -15,22 +17,25 @@ const Tab = createBottomTabNavigator() // initializes tab object for us to use
 const App = () => {
   const [loading, error, weather] = useGetWeather()
   // console.log(loading, error, weather)
+  let content = (
+    <View style={styles.container}>
+      <ActivityIndicator size={"large"} color={"blue"} />
+    </View>
+  );
 
   if (weather && weather.list){
-    return (
+     content = (
       <NavigationContainer independent={true}>
         <AuthStack />
-        {/* <LoginScreen />
-        <Tabs weather={weather} /> */}
       </NavigationContainer>
     );
   }
   // independent={true} because I have nested a NavigationContainer inside another
  
   return (
-    <View style={styles.container}>
-      <ActivityIndicator size={'large'} color={'blue'}/>
-    </View>
+    <Provider store={store}>
+      {content}
+    </Provider>
   )
 }
 const styles = StyleSheet.create({

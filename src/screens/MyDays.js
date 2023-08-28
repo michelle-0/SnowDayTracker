@@ -10,7 +10,11 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 import Card from "../components/Card";
 import LastCard from "../components/LastCard";
+import { useSelector } from "react-redux";
+
+
 const MyDays = ({}) => {
+  const userSnowDays = useSelector((state) => state.userSnowDays.value);
   const { container, image, button, lastCard } = styles;
   const [data, setData] = useState([]);
 
@@ -26,28 +30,33 @@ const MyDays = ({}) => {
       .catch((error) => {
         console.error("Error fetching data:", error);
       });
-  }, []);
+  }, [userSnowDays]);
+  
 
   const renderDaysItem = ({ item, index }) => {
-    const isLastItem = index === data.length;
     const { Snowy, Days } = item;
+    console.log("datalength: " + data.length);
 
-    if (isLastItem) {
+    if (index === data.length - 1) {
       return (
-        <View>
-          <LastCard />
-        </View>
+        <>
+          <Card title={Snowy} content={`Days: ${Days}`} />
+          <View>
+            <LastCard />
+          </View>
+        </>
       );
     }
 
-    // return <Card title={Snowy} content={`Days: ${Days}`} />;
+    return <Card title={Snowy} content={`Days: ${Days}`} />;
   };
+
 
   return (
     <SafeAreaView style={container}>
       <View>
         <FlatList
-          data={[...data, {}]}
+          data={data}
           renderItem={renderDaysItem}
           keyExtractor={(item, index) => index.toString()}
         />
