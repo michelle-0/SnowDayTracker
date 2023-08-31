@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-snowdaytracker-dev-143008-authRole",
+      "UnauthRoleArn": "arn:aws:iam::006564057088:role/amplify-snowdaytracker-dev-143008-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::006564057088:role/amplify-snowdaytracker-dev-143008-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-snowdaytracker-dev-143008-deployment",
+      "UnauthRoleName": "amplify-snowdaytracker-dev-143008-unauthRole",
+      "StackName": "amplify-snowdaytracker-dev-143008",
+      "StackId": "arn:aws:cloudformation:us-west-2:006564057088:stack/amplify-snowdaytracker-dev-143008/3bc0b780-46b3-11ee-af41-0a4c7163eb97",
+      "AmplifyAppId": "d3bwwv3v7kozph"
+    },
+    "categories": {
+      "function": {
+        "snowDayLambda": {
+          "deploymentBucketName": "amplify-snowdaytracker-dev-143008-deployment",
+          "s3Key": "amplify-builds/snowDayLambda-396b594c775a4b796534-build.zip"
+        }
+      },
+      "storage": {
+        "userSnowDay": {}
+      },
+      "api": {
+        "authApi": {}
+      },
+      "auth": {
+        "SnowDayTracker": {}
+      }
+    }
+  }
+}

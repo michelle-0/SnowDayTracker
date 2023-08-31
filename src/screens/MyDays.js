@@ -12,7 +12,6 @@ import Card from "../components/Card";
 import LastCard from "../components/LastCard";
 import { useSelector } from "react-redux";
 
-
 const MyDays = ({}) => {
   const userSnowDays = useSelector((state) => state.userSnowDays.value);
   const { container, image, button, lastCard } = styles;
@@ -26,16 +25,15 @@ const MyDays = ({}) => {
       .then((response) => response.json())
       .then((data) => {
         setData(data);
+        console.log("Data is fetched")
       })
       .catch((error) => {
         console.error("Error fetching data:", error);
       });
   }, [userSnowDays]);
-  
 
   const renderDaysItem = ({ item, index }) => {
     const { Snowy, Days } = item;
-    console.log("datalength: " + data.length);
 
     if (index === data.length - 1) {
       return (

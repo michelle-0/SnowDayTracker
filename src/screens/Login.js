@@ -14,33 +14,31 @@ import { Feather } from "@expo/vector-icons";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import CustomButton from "../components/CustomButton";
 import InputField from "../components/InputField";
+import { Auth } from "aws-amplify";
+
 
 const LoginScreen = ({ navigation }) => {
   const [userName, setUserName] = useState('');
   const [userEmail, setUserEmail] = useState('');
   const [userPassword, setUserPassword] = useState('');
 
-  const handleSignUp = async () => {
-    const userData = {
-      username: userName,
-      email: userEmail,
-      password: userPassword,
-    };
-
-    fetch("https://b3y4z9h2hb.execute-api.us-west-2.amazonaws.com/UpdateUsers", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(userData),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log("Response from API:", data);
-      })
-      .catch((error) => {
-        console.error("Error:", error);
+  async function signUp() {
+    try {
+      const { user } = await Auth.signUp({
+        username: userName,
+        password: userPassword,
+        attributes: {
+          email: userEmail,
+          // other attributes
+        },
+        autoSignIn: {
+          enabled: true,
+        },
       });
+      console.log("User signed up:", user);
+    } catch (error) {
+      console.log("Error signing up:", error);
+    }
   }
 
   return (
@@ -110,10 +108,10 @@ const LoginScreen = ({ navigation }) => {
             />
 
             <CustomButton
-              label={"Submit"}
-              onPress={() => {
-                handleSignUp();
-                navigation.navigate('Main');
+              label="Submit"
+              onPress={async () => {
+                await signUp();
+                navigation.navigate("Main"); // Navigate to the next screen
               }}
             />
           </View>
