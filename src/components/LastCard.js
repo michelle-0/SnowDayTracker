@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { SafeAreaView } from "react-native-safe-area-context";
 import {
   View,
   Text,
@@ -7,17 +8,18 @@ import {
   Modal,
   TextInput,
   Button,
+  Pressable,
 } from "react-native";
 import DropDownPicker from "react-native-dropdown-picker";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchUserSnowDays } from "../features/userSnowDaysSlice";
+import { Auth } from "aws-amplify";
 const resortsData = require("../../resorts.json");
 
 const LastCard = () => {
   const [modalVisible, setModalVisible] = useState(false);
   const [mountainName, setMountainName] = useState("");
   const [mountainDays, setMountainDays] = useState("");
-  const userEmail = "mo@gmail.com";
   const [open, setOpen] = useState(false);
   const [value, setValue] = useState(null);
   const dispatch = useDispatch();
@@ -37,37 +39,17 @@ const LastCard = () => {
     setMountainName(itemValue);
   };
 
-  // const handleAddMountain = async () => {
-  //     const requestData = {
-  //         mountain: mountainName,
-  //         days: mountainDays,
-  //         userId: userEmail
-  //       };
-
-  //       fetch("https://b3y4z9h2hb.execute-api.us-west-2.amazonaws.com/snowdays", {
-  //         method: 'POST',
-  //         headers: {
-  //           'Content-Type': 'application/json',
-  //         },
-  //         body: JSON.stringify(requestData)
-  //       })
-  //         .then(response => response.json())
-  //         .then(data => {
-  //           console.log("Response from API:", data);
-  //         })
-  //         .then(() => dispatch(fetchUserSnowDays()))
-  //         .catch(error => {
-  //           console.error("Error:", error);
-  //         });
-  //     }
   const handleAddMountain = async () => {
     const requestData = {
       mountain: mountainName,
       days: mountainDays,
-      userId: "mo@gmail.com",
+      userId: "", // Leave this empty for now
     };
 
     try {
+      const user = await Auth.currentAuthenticatedUser();
+      requestData.userId = user.attributes.email; // Set the user's email
+
       const response = await fetch(
         "https://b3y4z9h2hb.execute-api.us-west-2.amazonaws.com/snowdays",
         {
@@ -81,13 +63,16 @@ const LastCard = () => {
 
       const data = await response.json();
       console.log("Response from API:", data);
+
       const newMountain = {
         mountain: mountainName,
         days: mountainDays,
-        userId: userEmail,
+        userId: requestData.userId,
       };
 
-      dispatch(fetchUserSnowDays("mo@gmail.com", [...userSnowDays, newMountain])); 
+      dispatch(
+        fetchUserSnowDays(requestData.userId, [...userSnowDays, newMountain])
+      );
     } catch (error) {
       console.error("Error:", error);
     }
@@ -102,6 +87,7 @@ const LastCard = () => {
           </View>
         </View>
       </TouchableOpacity>
+
       <Modal visible={modalVisible} animationType="slide">
         <View style={styles.modalContainer}>
           <DropDownPicker
@@ -122,13 +108,6 @@ const LastCard = () => {
             value={mountainDays}
             onChangeText={(text) => setMountainDays(text)}
           />
-          {/* <TextInput
-                        style={styles.input}
-                        keyboardType='email-address'
-                        placeholder="Email"
-                        value={userEmail}
-                        onChangeText={text => setUserEmail(text)}
-                    /> */}
           <Button
             title="Add Mountain"
             onPress={() => {
@@ -144,15 +123,21 @@ const LastCard = () => {
 };
 
 const styles = StyleSheet.create({
+  // card: {
+  //   alignItems: "center",
+  //   justifyContent: "center",
+  //   paddingVertical: 24,
+  //   paddingHorizontal: 23,
+  //   borderRadius: 4,
+  //   elevation: 3,
+  //   backgroundColor: "white",
+  // },
   card: {
     backgroundColor: "white",
     borderRadius: 8,
-    elevation: 4,
     margin: 8,
-    overflow: "hidden",
   },
   cardContent: {
-    flex: 1,
     justifyContent: "center",
     alignItems: "center",
     minHeight: 100,

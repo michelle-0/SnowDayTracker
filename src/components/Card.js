@@ -7,7 +7,7 @@ const Card = ({ title, content}) => {
             <Image source={require('../../assets/mountain.jpg')} style={styles.image} resizeMode="cover" />
             <View style={styles.cardContent}>
                 <Text style={styles.title}>{title}</Text>
-                <Text>{content}</Text>
+                <Text style={styles.content}>{content}</Text>
                 <TouchableOpacity style={styles.button}><Text>Edit</Text></TouchableOpacity>
             </View>
         </View>
@@ -38,6 +38,9 @@ const Card = ({ title, content}) => {
             fontSize: 20,
             alignItems: 'flex-end',
             fontWeight: 'bold',
+        },
+        content: {
+            fontSize: 15
         }
     });
 

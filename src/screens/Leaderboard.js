@@ -1,9 +1,15 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, FlatList, StyleSheet, ScrollView } from "react-native";
+import { Button, View, Text, FlatList, StyleSheet, ScrollView } from "react-native";
+import { Auth } from 'aws-amplify'
+import { useSelector } from "react-redux";
 
 const Leaderboard = () => {
+  const userSnowDays = useSelector((state) => state.userSnowDays.value);
   const [leaderboardData, setLeaderboardData] = useState([]);
 
+  const signOut = () => {
+    Auth.signOut();
+  }
   useEffect(() => {
     const apiUrl =
       "https://b3y4z9h2hb.execute-api.us-west-2.amazonaws.com/getAllSnowDays";
@@ -44,7 +50,7 @@ const Leaderboard = () => {
       .catch((error) => {
         console.error("Error fetching data:", error);
       });
-  }, []);
+  }, [userSnowDays]);
 
   const renderItem = ({ item }) => {
     return (
@@ -80,6 +86,12 @@ const Leaderboard = () => {
           data={leaderboardData}
           renderItem={renderItem}
           keyExtractor={(item) => item.email}
+        />
+        <Button
+          title="Sign Out"
+          onPress={() => {
+            signOut();
+          }}
         />
       </View>
     </ScrollView>
@@ -159,3 +171,4 @@ const styles = StyleSheet.create({
 });
 
 export default Leaderboard;
+// TODO: Fix spacing between moutains. Probs shouldn't use in-between
