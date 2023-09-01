@@ -86,7 +86,7 @@ const Tabs = ({ weather }) => {
           ),
         }}
       >
-        {() => <MyDays weatherData={weather.list} />}
+        {() => <MyDays/>}
       </Tab.Screen>
 
       <Tab.Screen
@@ -101,8 +101,9 @@ const Tabs = ({ weather }) => {
           ),
         }}
       >
-        {() => <Leaderboard weatherData={weather.list} />}
+        {() => <Leaderboard/>}
       </Tab.Screen>
+      
     </Tab.Navigator>
   );
 };
