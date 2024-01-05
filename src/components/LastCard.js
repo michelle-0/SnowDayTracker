@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { SafeAreaView } from "react-native-safe-area-context";
 import {
   View,
   Text,
@@ -7,13 +6,13 @@ import {
   TouchableOpacity,
   Modal,
   TextInput,
-  Button,
-  Pressable,
+  Button
 } from "react-native";
 import DropDownPicker from "react-native-dropdown-picker";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchUserSnowDays } from "../features/userSnowDaysSlice";
 import { Auth } from "aws-amplify";
+
 const resortsData = require("../../resorts.json");
 
 const LastCard = () => {

@@ -5,11 +5,11 @@ import {
   FlatList,
   StyleSheet,
   StatusBar,
-  TouchableOpacity,
   SafeAreaView,
   ScrollView,
   ImageBackground
 } from "react-native";
+import SignOutButton from "../components/SignOutButton";
 import Card from "../components/Card";
 import LastCard from "../components/LastCard";
 import { useSelector } from "react-redux";
@@ -55,7 +55,6 @@ const MyDays = ({}) => {
   }
 
   const renderDaysItem = ({ item, index }) => {
-    console.log("renderdays is entered")
     const { Snowy, Days } = item;
 
     if (index === data.length - 1) {
@@ -81,7 +80,6 @@ const MyDays = ({}) => {
           {data === null ? (
             <View>
               <LastCard />
-              {console.log("data is null")}
             </View>
           ) : (
             <View>
@@ -93,6 +91,7 @@ const MyDays = ({}) => {
             </View>
           )}
         </ScrollView>
+        <SignOutButton/>
       </ImageBackground>
     </SafeAreaView>
   );
@@ -102,10 +101,9 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     marginTop: StatusBar.currentHeight || 0,
-    // backgroundColor: "#D4F1F4",
   },
   image: {
-    flex: 1
+    flex: 1,
   }
 });
 export default MyDays;

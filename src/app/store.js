@@ -1,6 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
 import userReducer from "../features/userSlice";
-import userSnowDaysSlice from "../features/userSnowDaysSlice";
 import userSnowDaysReducer from "../features/userSnowDaysSlice"
 
 export default configureStore({

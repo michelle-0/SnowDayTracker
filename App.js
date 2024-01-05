@@ -6,21 +6,15 @@ import { useGetWeather } from "./src/hooks/useGetWeather";
 import AuthStack from "./src/navigation/AuthStack";
 import { Provider } from "react-redux";
 import store from "./src/app/store";
-import { Amplify } from "aws-amplify";
-import Main from "./src/screens/Main";
-import {
-  useAuthenticator,
-  withAuthenticator,
-  useTheme,
-  ThemeProvider,
-  Authenticator,
-} from "@aws-amplify/ui-react-native";
+import { Amplify, Auth } from "aws-amplify";
+import { withAuthenticator, AmplifyTheme } from "aws-amplify-react-native";
 import awsExports from "./src/aws-exports";
-import LoginScreen from "./src/screens/Login";
+Amplify.configure({
+  Analytics: {
+    disabled: true,
+  },
+});
 Amplify.configure(awsExports);
-
-// api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
-
 const Tab = createBottomTabNavigator(); // initializes tab object for us to use
 
 const App = () => {
@@ -42,10 +36,25 @@ const App = () => {
 
   return <Provider store={store}>{content}</Provider>;
 };
+
 const styles = StyleSheet.create({
   container: {
     justifyContent: "center",
     flex: 1,
   },
 });
-export default withAuthenticator(App);
+
+const customTheme = {
+  ...AmplifyTheme,
+  button: {
+    ...AmplifyTheme.button,
+    backgroundColor: "blue",
+    borderRadius: 10,
+  },
+  sectionFooterLink: {
+    ...AmplifyTheme.sectionFooterLink,
+    color: "blue",
+  },
+};
+export default withAuthenticator(App, { theme: customTheme });
+// TODO: Notify others when they are headed to a mountain, request carpool?

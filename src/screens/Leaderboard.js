@@ -1,15 +1,19 @@
 import React, { useEffect, useState } from "react";
-import { Button, View, Text, FlatList, StyleSheet, ScrollView } from "react-native";
-import { Auth } from 'aws-amplify'
+import {
+  Button,
+  View,
+  Text,
+  FlatList,
+  StyleSheet,
+  ScrollView,
+} from "react-native";
+import { Auth } from "aws-amplify";
 import { useSelector } from "react-redux";
 
 const Leaderboard = () => {
   const userSnowDays = useSelector((state) => state.userSnowDays.value);
   const [leaderboardData, setLeaderboardData] = useState([]);
 
-  const signOut = () => {
-    Auth.signOut();
-  }
   useEffect(() => {
     const apiUrl =
       "https://b3y4z9h2hb.execute-api.us-west-2.amazonaws.com/getAllSnowDays";
@@ -17,7 +21,6 @@ const Leaderboard = () => {
     fetch(apiUrl)
       .then((response) => response.json())
       .then((data) => {
-
         const processedData = Object.entries(data).map(
           ([email, tripsArray]) => {
             console.log("Email:", email);
@@ -87,12 +90,6 @@ const Leaderboard = () => {
           renderItem={renderItem}
           keyExtractor={(item) => item.email}
         />
-        <Button
-          title="Sign Out"
-          onPress={() => {
-            signOut();
-          }}
-        />
       </View>
     </ScrollView>
   );
@@ -135,7 +132,7 @@ const styles = StyleSheet.create({
   },
 
   mountainDataSpacing: {
-    marginRight: 30, 
+    marginRight: 30,
   },
 
   mountainName: {
@@ -165,7 +162,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
   },
   headerTextSpacing: {
-    marginRight: 20, 
+    marginRight: 20,
     marginLeft: 20,
   },
 });
